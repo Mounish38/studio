@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { CalendarDays, Trash2 } from "lucide-react";
 import { format, parseISO } from 'date-fns';
 import type { Task } from '@/lib/types';
+import { cn } from '@/lib/utils';
 
 interface TaskCardProps {
   task: Task;
